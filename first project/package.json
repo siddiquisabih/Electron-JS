@@ -1,0 +1,23 @@
+{
+  "name": "first_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddiquisabih/Electron-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddiquisabih/Electron-JS/issues"
+  },
+  "homepage": "https://github.com/siddiquisabih/Electron-JS#readme",
+  "devDependencies": {
+    "electron": "^1.8.2"
+  }
+}
