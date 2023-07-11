@@ -1,0 +1,84 @@
+<html>
+
+<head dir="rtl" lang="ar">
+  <title>Simba</title>
+  <meta charset="utf-8" />
+  <script src="./functionality.js"></script>
+  <style>
+    @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+    body {
+      margin: 0;
+      padding: 0;
+      /* display: flex; */
+      /* flex-direction: column; */
+      height: 100vh;
+      /* direction: rtl; */
+      /* align-items: flex-end; */
+      /* justify-content: center; */
+    }
+
+    #input-container {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      /* padding: 20px; */
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    #inputBox {
+      width: 95%;
+      margin: 20px;
+      resize: none;
+    }
+
+    #result {
+      letter-spacing: normal;
+      padding: 10px;
+      padding-bottom: 200px;
+      text-align: right;
+      /* display: inline-block; */
+      unicode-bidi: bidi-override;
+      direction: rtl;
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <p id="result" style="font-family:Droid Arabic Kufi,serif;"></p>
+  <div id="input-container">
+    <textarea onchange="changeText()" id="inputBox" type="text" placeholder="Type your text here" rows="5"></textarea>
+  </div>
+</body>
+
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RTL Roman Example</title>
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  p {
+    text-align: right;
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+ 
+</style>
+<body>
+  <p>sabih is a good boy who is trying to deliver this project on time</p>
+</body>
+
+</html> -->

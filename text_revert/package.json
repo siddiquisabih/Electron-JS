@@ -1,0 +1,21 @@
+{
+  "name": "reverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron:win:pack": "electron-packager dist --platform=win32 --icon=icons/icon.ico --overwrite --out=electron"
+
+
+  },
+  "author": "sabih_siddiqui",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.2.0"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.1"
+  }
+}
